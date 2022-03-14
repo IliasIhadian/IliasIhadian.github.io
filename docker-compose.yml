@@ -1,0 +1,12 @@
+version: "3.1"
+services:
+  database:
+    image: postgres:14.1-alpine3.15
+    ports:
+      - "8083:8083"
+    volumes:
+      - ./db/seed:/docker-entrypoint-initdb.d/
+    environment:
+      - "POSTGRES_DB=ppplan"
+      - "POSTGRES_USER=ppplan"
+      - "POSTGRES_PASSWORD=iamgroot"
