@@ -1,5 +1,7 @@
 # bored-website :sparkles::sparkles:
-A Website which is build out of pure boredom (and some curiosity)
+A Website which is build out of pure boredom (and some curiosity).     
+And to have some fun with programming ofc!
+
 
 ## License :bowtie:
 [MIT](https://choosealicense.com/licenses/mit/)

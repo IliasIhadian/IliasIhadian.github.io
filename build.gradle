@@ -2,6 +2,8 @@ plugins {
     id 'org.springframework.boot' version '2.6.3'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
+    id 'checkstyle'
+    id 'com.github.spotbugs' version '4.7.9'
 }
 
 group = 'com.ilias'
@@ -10,6 +12,29 @@ sourceCompatibility = '17'
 
 repositories {
     mavenCentral()
+}
+
+checkstyle {
+    toolVersion = "8.37"
+    maxWarnings = 0
+}
+
+spotbugs{
+    effort = "max"
+}
+
+spotbugsMain{
+    reports {
+        xml.enabled = false;
+        html.enabled = true;
+    }
+}
+
+spotbugsTest{
+    reports {
+        xml.enabled = false;
+        html.enabled = true;
+    }
 }
 
 dependencies {
