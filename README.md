@@ -7,8 +7,8 @@ And to have some fun with programming ofc!
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## [Todo]:grey_exclamation::grey_exclamation:
-- [ ] Github Cl konfigurieren
-- [ ] Checkstyle und Spotbugs einstellen
+- [x] Github Cl konfigurieren
+- [x] Checkstyle und Spotbugs einstellen
 - [ ] Nav-bar fertig machen
 - [ ] About Me Seite mit kurzer Vorstellung
 - [ ] Headline stylen
