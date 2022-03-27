@@ -12,3 +12,4 @@ And to have some fun with programming ofc!
 - [ ] Nav-bar fertig machen
 - [ ] About Me Seite mit kurzer Vorstellung
 - [ ] Headline stylen
+- [ ] (try github copilot)
