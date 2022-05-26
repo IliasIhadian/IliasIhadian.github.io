@@ -9,7 +9,8 @@ And to have some fun with programming ofc!
 ## [Todo]:grey_exclamation::grey_exclamation:
 - [x] Github Cl konfigurieren
 - [x] Checkstyle und Spotbugs einstellen
-- [ ] Nav-bar fertig machen
-- [ ] About Me Seite mit kurzer Vorstellung
-- [ ] Headline stylen
+- [x] Nav-bar fertig machen
+- [x] About Me Seite mit kurzer Vorstellung
+- [ ] auf github.io hosten lassen
+- [ ] Überschrift oben hängen lassen also auf dem seleben lvl wie die nav-bar
 - [ ] (try github copilot)
