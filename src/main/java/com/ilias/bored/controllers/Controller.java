@@ -22,6 +22,7 @@ public class Controller {
         model.addAttribute("allStats", totalCases);
         return "home";
     }
+
     @GetMapping("/bio")
     public String bio(Model model) {
 
