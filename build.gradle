@@ -4,11 +4,13 @@ plugins {
     id 'java'
     id 'checkstyle'
     id 'com.github.spotbugs' version '4.7.9'
+    id 'application'
 }
 
 group = 'com.ilias'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
+mainClassName = "com.ilias.bored.BoredApplication"
 
 repositories {
     mavenCentral()
