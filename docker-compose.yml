@@ -9,4 +9,4 @@ services:
     environment:
       - "POSTGRES_DB=ppplan"
       - "POSTGRES_USER=ppplan"
-      - "POSTGRES_PASSWORD=iamgroot"
+      - "POSTGRES_PASSWORD=${{ env.PG_PW }}"
